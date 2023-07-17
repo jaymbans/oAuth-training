@@ -92,7 +92,7 @@ app.get('/auth/github/callback',
     failureRedirect: '/login',
     successRedirect: '/'
   })
-)
+);
 
 
 
